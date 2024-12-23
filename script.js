@@ -3,7 +3,8 @@ function toCase(text) {
 	if(text==='')return '-'
 	let lw = text.toLowerCase();
 	let up = text.toUpperCase();
-	return `${lw}-${up}`
+	let str = `${lw}-${up}`;
+	return str;
 }
 
 // DO not change the code below
